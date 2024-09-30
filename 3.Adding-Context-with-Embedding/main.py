@@ -16,4 +16,7 @@ textSplitter = CharacterTextSplitter(separator="\n", chunk_size=200, chunk_overl
 loader = TextLoader("./facts.txt")
 docs = loader.load_and_split(text_splitter=textSplitter)
 
-print(docs)
+for doc in docs:
+    print(doc.page_content)
+    print('\n')
+

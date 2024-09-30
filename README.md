@@ -15,3 +15,8 @@ Notes + Code for Langchain
 
 - [Embeddings](./3.Adding-Context-with-Embedding/)
   - [Use TextSplitter and generate Text Embeddings](./3.Adding-Context-with-Embedding/main.py)
+
+- [Custom Document Retrievers](./4.Custom-Document-Retrievers/)
+  - [Create Chunk and Store Embeddings](./4.Custom-Document-Retrievers/main.py) -> Run this file only once to generate and store embeddings of files
+  - [Give User Prompts via RetrievalQA](4.Custom-Document-Retrievers/prompt.py)
+  - [Custom Retriever to eliminate Duplicate Content](4.Custom-Document-Retrievers/redundant_filter_retriever.py)
